@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const LinkBar = (props) => {
 
-  const { setLinkItem } = props;
+  const { setLinkItems, linkItems } = props;
   const [linkInput, setLinkInput] = useState("");
   const [slugInput, setSlugInput] = useState("");
   const isAlphanumeric = (slug) => {
@@ -53,7 +53,8 @@ const LinkBar = (props) => {
         }
       }
       );
-      setLinkItem(response.data.slug)
+
+      setLinkItems([response.data, ...linkItems])
     } catch (error) {
       toast("There Was error while sending url to server")
       console.log(error);
