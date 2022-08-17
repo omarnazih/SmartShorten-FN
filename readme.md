@@ -1,5 +1,6 @@
 # SmartShorter Frontend 
-[![Build Status](https://github.com/evanpurkhiser/waitress/workflows/build/badge.svg)](https://github.com/omarnazih/SmartShorten-FN.git)
+[![Build Status](https://github.com/evanpurkhiser/waitress/workflows/build/badge.svg)](https://github.com/omarnazih/SmartShorten-FN.git)]
+
 ![Deployment](https://tubular-travesseiro-ab2ec7.netlify.app/)
 
 ![API Docs](https://jsfiddle.net/8e6bkonq/)  
