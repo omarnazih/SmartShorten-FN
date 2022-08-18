@@ -9,6 +9,7 @@ const LinkBar = (props) => {
   const { setLinkItems, linkItems } = props;
   const [linkInput, setLinkInput] = useState("");
   const [slugInput, setSlugInput] = useState("");
+
   const isAlphanumeric = (slug) => {
     const regex = /^[0-9a-zA-Z]+$/;
     if (slug.match(regex)) {

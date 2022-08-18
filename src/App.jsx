@@ -23,13 +23,9 @@ function App() {
         response.data.forEach((elm) => {
           newlist.push(elm)
         })
-
         setLinkItems([...linkItems, ...newlist])
-
       }
       )
-
-
     } catch (error) {
       console.log(error);
     }
