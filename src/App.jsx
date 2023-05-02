@@ -16,7 +16,7 @@ function App() {
       await axios(
         {
           method: 'GET',
-          url: 'https://smart-shorter-api.herokuapp.com/shortlinks'
+          url: 'https://web-production-d5d1.up.railway.app/shortlinks'
         }
       ).then((response) => {
         let newlist = []
